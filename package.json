@@ -1,0 +1,36 @@
+{
+	"name": "@myorg/incident-component-paris",
+	"version": "0.0.1",
+	"private": false,
+	"description": "'A",
+	"keywords": [
+		"ServiceNow",
+		"Now Experience UI Component",
+		"@myorg/incident-component-paris"
+	],
+	"readme": "./README.md",
+	"engines": {
+		"node": ">=8.6.0",
+		"npm": ">=5.3.0"
+	},
+	"module": "src/index.js",
+	"dependencies": {
+		"@servicenow/cli-archetype": "18.0.0",
+		"@servicenow/cli-component-archetype": "18.0.0",
+		"@servicenow/library-translate": "paris",
+		"@servicenow/now-alert": "^18.4.2",
+		"@servicenow/now-button": "^18.4.2",
+		"@servicenow/now-input": "^18.4.2",
+		"@servicenow/now-tabs": "^18.4.2",
+		"@servicenow/sass-kit": "paris",
+		"@servicenow/sass-theme": "paris",
+		"@servicenow/ui-core": "^18.2.5",
+		"@servicenow/ui-effect-graphql": "^18.2.5",
+		"@servicenow/ui-effect-http": "^18.2.5",
+		"@servicenow/ui-renderer-snabbdom": "paris"
+	},
+	"devDependencies": {
+		"@servicenow/cli-archetype-dev": "18.0.0",
+		"@servicenow/cli-component-archetype-dev": "18.0.0"
+	}
+}
