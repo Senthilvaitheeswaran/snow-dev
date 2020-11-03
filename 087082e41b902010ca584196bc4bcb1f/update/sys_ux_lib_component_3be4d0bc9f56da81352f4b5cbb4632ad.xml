@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_lib_component">
+    <sys_ux_lib_component action="INSERT_OR_UPDATE">
+        <default_children/>
+        <default_layout/>
+        <deprecated>false</deprecated>
+        <overrides/>
+        <required_sys_props/>
+        <required_translation_keys/>
+        <source_script/>
+        <source_script_name>@myorg/incident-component-paris</source_script_name>
+        <sys_class_name>sys_ux_lib_component</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-02 18:36:35</sys_created_on>
+        <sys_id>3be4d0bc9f56da81352f4b5cbb4632ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x-532635-incident-component-paris</sys_name>
+        <sys_package display_value="@myorg/incident-component-paris" source="x_532635_myorg_i_1">087082e41b902010ca584196bc4bcb1f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="@myorg/incident-component-paris">087082e41b902010ca584196bc4bcb1f</sys_scope>
+        <sys_update_name>sys_ux_lib_component_3be4d0bc9f56da81352f4b5cbb4632ad</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-02 18:36:35</sys_updated_on>
+        <tag>x-532635-incident-component-paris</tag>
+    </sys_ux_lib_component>
+</record_update>

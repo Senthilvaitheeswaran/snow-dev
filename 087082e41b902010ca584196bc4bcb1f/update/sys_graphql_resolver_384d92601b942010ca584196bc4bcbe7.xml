@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_graphql_resolver">
+    <sys_graphql_resolver action="INSERT_OR_UPDATE">
+        <name>Resolver : Get Incident By Number</name>
+        <schema display_value="incident">467992ac1b542010ca584196bc4bcb4d</schema>
+        <script><![CDATA[(function process(/*ResolverEnvironment*/ env) {
+	var id = env.getArguments().number != null ? env.getArguments().number : env.getSource();
+	if (!id) return null;
+	
+	var gr = new GlideRecord('incident');
+	gr.addQuery('number',id);
+	gr.query();
+	
+	if(gr.next())
+		return gr;
+	
+})(env);]]></script>
+        <sys_class_name>sys_graphql_resolver</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-02 14:20:55</sys_created_on>
+        <sys_id>384d92601b942010ca584196bc4bcbe7</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Resolver : Get Incident By Number</sys_name>
+        <sys_package display_value="@myorg/incident-component-paris" source="x_532635_myorg_i_1">087082e41b902010ca584196bc4bcb1f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="@myorg/incident-component-paris">087082e41b902010ca584196bc4bcb1f</sys_scope>
+        <sys_update_name>sys_graphql_resolver_384d92601b942010ca584196bc4bcbe7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-02 15:03:05</sys_updated_on>
+    </sys_graphql_resolver>
+</record_update>

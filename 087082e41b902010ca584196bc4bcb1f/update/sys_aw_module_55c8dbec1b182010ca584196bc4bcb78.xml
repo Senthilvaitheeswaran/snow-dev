@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_aw_module">
+    <sys_aw_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <content display_value="Lists Module Content">11c8dbec1b182010ca584196bc4bcb8f</content>
+        <content_attrs/>
+        <content_component display_value="sn-workspace-list-module">19622d2bff222300294153bd6338f1ef</content_component>
+        <content_tag/>
+        <detail/>
+        <detail_attrs/>
+        <detail_component/>
+        <detail_tag/>
+        <hide_until_ready>false</hide_until_ready>
+        <icon>list-outline</icon>
+        <id>list</id>
+        <label>Lists</label>
+        <order>100</order>
+        <roles/>
+        <sys_class_name>sys_aw_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-02 18:40:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>55c8dbec1b182010ca584196bc4bcb78</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>list</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="@myorg/incident-component-paris" source="x_532635_myorg_i_1">087082e41b902010ca584196bc4bcb1f</sys_package>
+        <sys_policy/>
+        <sys_props/>
+        <sys_scope display_value="@myorg/incident-component-paris">087082e41b902010ca584196bc4bcb1f</sys_scope>
+        <sys_update_name>sys_aw_module_55c8dbec1b182010ca584196bc4bcb78</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-02 18:40:30</sys_updated_on>
+        <toolbar_button display_value="Lists Button">59c8dbec1b182010ca584196bc4bcb78</toolbar_button>
+        <type>full</type>
+        <workspace_config display_value="My Workspace">7cc8dbec1b182010ca584196bc4bcb17</workspace_config>
+    </sys_aw_module>
+    <sys_variable_value action="delete_multiple" query="document_key=55c8dbec1b182010ca584196bc4bcb78"/>
+</record_update>

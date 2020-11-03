@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_graphql_schema">
+    <sys_graphql_schema action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application_namespace>x532635MyorgI1</application_namespace>
+        <enforce_acl/>
+        <name>incident</name>
+        <namespace>incident</namespace>
+        <paths>Incident:active,Incident:number,Incident:short_description,Incident:sys_id,Query:incident</paths>
+        <requires_acl_authorization>false</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <schema>schema {&#13;
+    query: Query&#13;
+    &#13;
+}&#13;
+&#13;
+type Query {&#13;
+   incident(number: String!): Incident&#13;
+}&#13;
+&#13;
+type Incident {&#13;
+  sys_id : String! @source(value: "sys_id.display_value")&#13;
+  number: String! @source(value: "number.display_value")&#13;
+  active: Boolean @source(value: "active.value")&#13;
+  short_description: String @source(value: "short_description.display_value")&#13;
+  &#13;
+}&#13;
+</schema>
+        <sys_class_name>sys_graphql_schema</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-02 14:04:20</sys_created_on>
+        <sys_id>467992ac1b542010ca584196bc4bcb4d</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>incident</sys_name>
+        <sys_package display_value="@myorg/incident-component-paris" source="x_532635_myorg_i_1">087082e41b902010ca584196bc4bcb1f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="@myorg/incident-component-paris">087082e41b902010ca584196bc4bcb1f</sys_scope>
+        <sys_update_name>sys_graphql_schema_467992ac1b542010ca584196bc4bcb4d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-02 17:29:36</sys_updated_on>
+        <type_names/>
+    </sys_graphql_schema>
+</record_update>
