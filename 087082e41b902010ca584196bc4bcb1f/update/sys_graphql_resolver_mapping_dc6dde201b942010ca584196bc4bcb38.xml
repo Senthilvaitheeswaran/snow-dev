@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_graphql_resolver_mapping">
+    <sys_graphql_resolver_mapping action="INSERT_OR_UPDATE">
+        <path>Query:incident</path>
+        <resolver display_value="Resolver : Get Incident By Number">384d92601b942010ca584196bc4bcbe7</resolver>
+        <schema display_value="incident">467992ac1b542010ca584196bc4bcb4d</schema>
+        <sys_class_name>sys_graphql_resolver_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-02 14:21:09</sys_created_on>
+        <sys_id>dc6dde201b942010ca584196bc4bcb38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="@myorg/incident-component-paris" source="x_532635_myorg_i_1">087082e41b902010ca584196bc4bcb1f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="@myorg/incident-component-paris">087082e41b902010ca584196bc4bcb1f</sys_scope>
+        <sys_update_name>sys_graphql_resolver_mapping_dc6dde201b942010ca584196bc4bcb38</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-02 14:21:09</sys_updated_on>
+    </sys_graphql_resolver_mapping>
+</record_update>

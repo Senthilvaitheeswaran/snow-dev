@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_toolbox_component">
+    <sys_uib_toolbox_component action="INSERT_OR_UPDATE">
+        <description>This Component create,get,cancel incident</description>
+        <icon>document-outline</icon>
+        <label>Incident</label>
+        <macroponent display_value="Incident">c2805a04c1dd4fe88208a8336524e878</macroponent>
+        <sys_class_name>sys_uib_toolbox_component</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-02 18:36:39</sys_created_on>
+        <sys_id>4fb365c48465ead097654d4ee39ff3aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Incident</sys_name>
+        <sys_package display_value="@myorg/incident-component-paris" source="x_532635_myorg_i_1">087082e41b902010ca584196bc4bcb1f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="@myorg/incident-component-paris">087082e41b902010ca584196bc4bcb1f</sys_scope>
+        <sys_update_name>sys_uib_toolbox_component_4fb365c48465ead097654d4ee39ff3aa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-02 18:36:39</sys_updated_on>
+    </sys_uib_toolbox_component>
+</record_update>
