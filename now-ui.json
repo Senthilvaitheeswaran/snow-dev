@@ -1,0 +1,15 @@
+{
+	"components": {
+	    "x-532635-incident-component-paris": {
+	        "innerComponents": [],
+			"uiBuilder": {
+				"associatedTypes": ["global.core", "global.landing-page"],
+				"label": "Incident",
+				"icon": "document-outline",
+				"description": "This Component create,get,cancel incident",
+				"category": "primitives"
+			}
+	    }
+	},
+	"scopeName": "x_532635_myorg_i_1"
+}
